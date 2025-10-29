@@ -1,0 +1,926 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  font-size: 30px;
+}
+.navigation a {
+  /* color: red; */
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  box-sizing: border-box;
+  align-items: center;
+
+  background-color: #3b5d4f;
+  color: white;
+}
+.navbar {
+  display: flex;
+  font-size: 13px;
+  gap: 15vh;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 8vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+.navcart {
+  display: flex;
+  font-size: 13px;
+  gap: 10px;
+}
+@media (max-width: 426px) {
+  .navbar {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: start;
+    padding: 1px 1px;
+    align-items: center;
+  }
+}
+.website-display-area {
+  width: 90%;
+  /* min-width: 1200px; */
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin: 10vh auto;
+}
+body {
+  background-color: rgba(211, 211, 211, 0.726);
+}
+
+/* HERO SECTION-------HERO SECTION-------HERO SECTION */
+/* HERO SECTION-------HERO SECTION-------HERO SECTION */
+/* HERO SECTION-------HERO SECTION-------HERO SECTION */
+/* HERO SECTION-------HERO SECTION-------HERO SECTION */
+/* HERO SECTION-------HERO SECTION-------HERO SECTION */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #3b5d4f;
+  height: 579px;
+  width: auto;
+  height: 100%;
+  padding: 0px 10vh;
+  padding-top: 50px;
+  z-index: 0;
+}
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-family: "popins", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.hero-text p {
+  text-align: justify;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+.btn-shownow {
+  font-size: 15px;
+  margin: 5px 2px 5px 0;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 200, 0);
+  color: black;
+}
+
+.btn-explore {
+  font-size: 15px;
+  margin: 5px 2px 5px 0;
+  padding: 5px 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+}
+
+.hero-images {
+  position: relative;
+  flex: 1.5;
+}
+.hero-sofa {
+  position: relative;
+  justify-content: end;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 2;
+}
+.hero-dot {
+  position: absolute;
+  width: 200px;
+  top: 10vh;
+  right: 2vh;
+  z-index: 1;
+  filter: invert(1);
+  opacity: 0.2;
+}
+/* HERO SECTION END-----HERO SECTION END-----HERO SECTION END----- */
+/* HERO SECTION END-----HERO SECTION END-----HERO SECTION END----- */
+/* HERO SECTION END-----HERO SECTION END-----HERO SECTION END----- */
+/* HERO SECTION END-----HERO SECTION END-----HERO SECTION END----- */
+/* HERO SECTION END-----HERO SECTION END-----HERO SECTION END----- */
+
+/* SECTION-1  SECTION-1  SECTION-1   */
+/* SECTION-1  SECTION-1  SECTION-1   */
+/* SECTION-1  SECTION-1  SECTION-1   */
+/* SECTION-1  SECTION-1  SECTION-1   */
+/* SECTION-1  SECTION-1  SECTION-1   */
+.section-1 {
+  /* border: 5px solid red; */
+  /* background-color: green; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+  justify-items: center;
+  /* margin-bottom: 130px; */
+}
+.crafted-with-excellent-material h2 {
+  font-size: 30px;
+}
+
+.crafted-with-excellent-material p {
+  text-align: justify;
+  margin: 10px 0px;
+  line-height: 1.3;
+}
+
+.crafted-with-excellent-material button {
+  font-size: 18px;
+  background-color: black;
+}
+.nordic-chair img,
+.Kruzo-Aero-Chair img,
+.Ergonomic-chair img {
+  margin-bottom: 20px;
+}
+.nordic-chair {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.nordic-chair p {
+  font-weight: bold;
+}
+
+/* .box{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    width:  230px;
+    top: 75px;
+    border-radius: 15px;
+    opacity: .5;
+background-color: #DCE4E4;
+z-index: -1;
+} 
+.nordic-chair i{
+    position: absolute;
+    left: 105px;
+    bottom: -39px;
+    font-size: 23px;
+}
+*/
+
+.Kruzo-Aero-Chair {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Kruzo-Aero-Chair p {
+  font-weight: bold;
+}
+.Ergonomic-chair {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Ergonomic-chair p {
+  font-weight: bold;
+}
+/* SECTION-1 END-----SECTION-1 END-----SECTION-1 END----- */
+/* SECTION-1 END-----SECTION-1 END-----SECTION-1 END----- */
+/* SECTION-1 END-----SECTION-1 END-----SECTION-1 END----- */
+/* SECTION-1 END-----SECTION-1 END-----SECTION-1 END----- */
+/* SECTION-1 END-----SECTION-1 END-----SECTION-1 END----- */
+
+/* SECTION-2   SECTION-2   SECTION-2    */
+/* SECTION-2   SECTION-2   SECTION-2    */
+/* SECTION-2   SECTION-2   SECTION-2    */
+/* SECTION-2   SECTION-2   SECTION-2    */
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  /* position: relative; */
+  /* border: 3px solid green; */
+}
+.section2-textarea {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid red; */
+}
+.why-choose-us {
+  margin: 25px 0;
+}
+.why-choose-us h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.fast-and-free-shipping {
+  /* border: 3px solid yellow; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+.fast-and-free-shipping i {
+  font-size: 25px;
+}
+.fast-and-free-shipping h3 {
+  margin: 5px 0;
+}
+
+.section-2-images {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  position: relative;
+}
+.section2-dots {
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  opacity: 0.5;
+}
+.section2-style-indor {
+  position: absolute;
+  top: 50px;
+}
+/* SECTION-2 END   SECTION-2 END   SECTION-2 END    */
+/* SECTION-2 END   SECTION-2 END   SECTION-2 END    */
+/* SECTION-2 END   SECTION-2 END   SECTION-2 END    */
+/* SECTION-2 END   SECTION-2 END   SECTION-2 END    */
+
+/* SECTION-3    SECTION-3    SECTION-3    */
+/* SECTION-3    SECTION-3    SECTION-3    */
+/* SECTION-3    SECTION-3    SECTION-3    */
+/* SECTION-3    SECTION-3    SECTION-3    */
+/* SECTION-3    SECTION-3    SECTION-3    */
+.section-3 {
+  position: relative;
+  /* border: 5px solid #000000; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  gap: 10px;
+  /* background-color: green; */
+  margin-top: 20vh;
+}
+/* IMAGE SECTION */
+.section-3-images {
+  position: relative;
+  height: 100%;
+}
+.section-3_centerimage {
+  width: 380px;
+  height: 430px;
+  border-radius: 10px;
+  /* display: cover; */
+  position: absolute;
+  top: -40px;
+  left: 12vh;
+  /* height: 100px; */
+}
+.section-3_side1by1 {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  width: 180px;
+  border-radius: 10px;
+}
+.section-3_stool {
+  position: absolute;
+  bottom: -52px;
+  right: 10px;
+  border-radius: 10px;
+  height: 340px;
+  width: 250px;
+}
+.section-3_dots {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* TEXT SECTION */
+.section-3-text {
+  /* background-color: pink; */
+  margin: 30px 0;
+  /* padding: 10 10px 10 10px; */
+  /* border: 5px solid rgb(255, 2, 2); */
+}
+.section-3-text h2 {
+  font-size: 35px;
+  margin: 10px 0;
+}
+.section-3-text-paragraph {
+  padding: 10px 0;
+}
+.section-3-text p {
+  font-size: 15px;
+  /* margin: 10px 0; */
+  line-height: 1.5;
+}
+.mordern-interior-design-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.MID-box {
+  display: flex;
+  align-items: first baseline;
+  gap: 8px;
+}
+.MID-box i {
+  font-size: 10px;
+  align-items: center;
+}
+.section3-btn-explore {
+  font-size: 15px;
+  margin: 5px 2px 5px 0;
+  padding: 5px 20px;
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+/* SECTION-3 END   SECTION-3 END   SECTION-3 END */
+/* SECTION-3 END   SECTION-3 END   SECTION-3 END */
+/* SECTION-3 END   SECTION-3 END   SECTION-3 END */
+/* SECTION-3 END   SECTION-3 END   SECTION-3 END */
+/* SECTION-3 END   SECTION-3 END   SECTION-3 END */
+
+/* MEDIA QUERIES      MEDIA QUERIES      MEDIA QUERIES     */
+/* MEDIA QUERIES      MEDIA QUERIES      MEDIA QUERIES     */
+/* MEDIA QUERIES      MEDIA QUERIES      MEDIA QUERIES     */
+/* MEDIA QUERIES      MEDIA QUERIES      MEDIA QUERIES     */
+/* MEDIA QUERIES      MEDIA QUERIES      MEDIA QUERIES     */
+@media (max-width: 1025px) {
+  /* HERO SECTION */
+  .hero {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .section-1 {
+    /* border: 5px solid red; */
+    /* background-color: green; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .nordic-chair,
+  .Kruzo-Aero-Chair,
+  .Ergonomic-chair {
+    margin: 30px 0px;
+  }
+  .section2-textarea {
+    margin-bottom: 20px;
+  }
+  .section2-dots {
+    position: absolute;
+    left: 120px;
+    top: 5px;
+    opacity: 0.5;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* position: relative; */
+    /* border: 3px solid green; */
+  }
+
+
+    .section-3 {
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(0.5fr, 1fr));
+  }
+  .section-3-images {
+    position: relative;
+    border: 5px solid red;
+    display: grid;
+    height: 450px;
+  }
+  .section-3_centerimage {
+    position: absolute;
+    width: 250px;
+    height: 80%;
+    border-radius: 10px;
+    display: cover;
+    top: 0;
+    left: 0;
+  }
+  .section-3_side1by1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+    border-radius: 10px;
+  }
+  .section-3_stool{
+    position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 10px;
+  height: 270px;
+  width: 220px;
+  }
+  .section-3_dots {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .nordic-chair,
+  .Kruzo-Aero-Chair,
+  .Ergonomic-chair {
+    margin: 30px 0px;
+  }
+  .section2-dots {
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    opacity: 0.5;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .section-3 {
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .section-3-images {
+    position: relative;
+    border: 5px solid red;
+    display: grid;
+    height: 450px;
+  }
+  .section-3_centerimage {
+    position: absolute;
+    width: 430px;
+    height: 100%;
+    border-radius: 10px;
+    display: cover;
+    top: 0;
+    left: 0;
+  }
+  .section-3_side1by1 {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .section-3_stool{
+    position: absolute;
+  bottom: -55px;
+  right: 25px;
+  border-radius: 10px;
+  height: 300px;
+  width: 250px;
+  }
+  .section-3_dots {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  /* HERO SECTION */
+  .hero {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    /* background-color: #3b5d4f; */
+    height: 579px;
+    width: auto;
+    height: 100%;
+    padding: 0px 15px;
+    padding-top: 50px;
+    z-index: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .hero-text span {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .hero-text p {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .btn-shownow {
+    font-size: 13px;
+    margin: 3px 2px 3px 0;
+    padding: 5px 20px;
+    border-radius: 20px;
+  }
+
+  .btn-explore {
+    font-size: 13px;
+    margin: 3px 2px 3px 0;
+    padding: 5px 20px;
+    border-radius: 20px;
+  }
+  .hero-sofa {
+    width: 100%;
+  }
+  .hero-dot {
+    top: 28px;
+    right: -20px;
+    height: 150px;
+  }
+
+  /* SECTION-1 */
+  .section-1 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .nordic-chair,
+  .Kruzo-Aero-Chair,
+  .Ergonomic-chair {
+    margin: 30px 0px;
+  }
+
+  /* SECTION-2   SECTION-2   SECTION-2    */
+  .section-2 {
+    grid-template-columns: 1fr;
+  }
+  .section2-textarea {
+    display: grid;
+    /* border: 3px solid red; */
+  }
+  .why-choose-us {
+    /* border: 3px solid red; */
+    margin: 25px 0;
+    line-height: 1.3;
+  }
+  .why-choose-us h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .why-choose-us p {
+    font-size: 15px;
+    max-width: 80%;
+  }
+  .fast-and-free-shipping {
+    /* border: 3px solid rgb(89, 0, 255); */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    text-align: justify;
+  }
+  .fast-and-free-shipping i {
+    font-size: 25px;
+  }
+  .fast-and-free-shipping h3 {
+    margin: 5px 0;
+  }
+  .fast-and-free-shipping p {
+    /* margin: 5px 0; */
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .section-2-images {
+    margin: 0px;
+    height: 450px;
+    /* border: 5px solid red; */
+  }
+  .section2-dots {
+    display: none;
+  }
+  .section2-style-indor {
+    /* border: 5px solid pink; */
+    height: 430px;
+    top: 0px;
+  }
+  /* SECTION-3 */
+    .section-3 {
+      display: grid;
+      width: 80%;
+    /* margin-top: 0px; */
+    grid-template-columns: 1fr;
+    /* grid-template-areas: "1rf" "1rf"; */
+    /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
+  }
+  .section-3-images {
+    position: relative;
+    border: none;
+    display: grid;
+    height: 450px;
+  }
+  .section-3_centerimage {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    /* display: ; */
+    left: -30px;
+  }
+  .section-3_side1by1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .section-3_stool{
+    position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 10px;
+  height: 250px;
+  width: 150px;
+  }
+  .section-3_dots {
+    display: none;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last0 {
+  color: red;
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  background-color: pink;
+  position: relative;
+  display: flex;
+}
+.last {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  /* width: 100%; */
+  background-image: url(../media/Ergonomic-chair.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+  left: 30%;
+  width: 20%;
+}
+.last1 {
+  position: absolute;
+  height: 50vh;
+  width: 33.33%;
+  background-image: url(../media/Ergonomic-chair.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+  left: 0;
+}
+.last2 {
+  position: absolute;
+  height: 50vh;
+  width: 33.33%;
+  /* width: 100%; */
+  background-image: url(../media/Ergonomic-chair.png);
+  background-repeat: no-repeat;
+  right: 0;
+  /* background-position: end; */
+  background-size: contain;
+}
